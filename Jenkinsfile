@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/vish251097/EcommerceApp.git',
+                    url: 'https://github.com/vish251097/EcomerceApp.git',
                     credentialsId: 'github-token'
             }
         }
