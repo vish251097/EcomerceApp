@@ -17,7 +17,7 @@ pipeline {
 
         stage('Build with Maven') {
             steps {
-                sh '/usr/local/bin/mvn clean package'
+                sh 'bash -c "/usr/local/bin/mvn clean package"'
             }
         }
     }
